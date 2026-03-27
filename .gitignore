@@ -1,0 +1,17 @@
+# Screenshots (dev workflow only)
+temporary screenshots/
+
+# Build artifacts
+*.zip
+
+# Node
+node_modules/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
