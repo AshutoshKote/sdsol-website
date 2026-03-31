@@ -3,6 +3,12 @@
  * SD Sol Theme — functions.php
  */
 
+// Custom Post Types, meta fields, REST API, admin UI, revalidation webhook
+require_once get_template_directory() . '/inc/custom-post-types.php';
+require_once get_template_directory() . '/inc/admin-meta-boxes.php';
+require_once get_template_directory() . '/inc/rest-api.php';
+require_once get_template_directory() . '/inc/revalidate.php';
+
 function sdsol_setup() {
     add_theme_support( 'title-tag' );
     add_theme_support( 'post-thumbnails' );
