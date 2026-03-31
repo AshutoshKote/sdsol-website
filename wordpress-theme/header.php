@@ -19,29 +19,36 @@
     <li class="nav-item">
       <a href="<?php echo sdsol_url('/services/'); ?>">Services <span class="chevron">▼</span></a>
       <div class="dropdown">
-        <a href="<?php echo sdsol_url('/service-data-infrastructure/'); ?>">Data Infrastructure + Architecture</a>
-        <a href="<?php echo sdsol_url('/service-data-governance/'); ?>">Data Governance</a>
-        <a href="<?php echo sdsol_url('/service-data-engineering/'); ?>">Data Engineering Services</a>
-        <a href="<?php echo sdsol_url('/service-data-analytics/'); ?>">Data Analytics Services</a>
-        <a href="<?php echo sdsol_url('/service-ai-ml/'); ?>">AI / ML Solutions</a>
-        <a href="<?php echo sdsol_url('/service-advisory/'); ?>">Advisory &amp; Strategy</a>
+        <a href="<?php echo sdsol_url('/services/ai-ml/'); ?>">AI &amp; Machine Learning</a>
+        <a href="<?php echo sdsol_url('/services/data-engineering/'); ?>">Data Engineering &amp; Strategy</a>
+        <a href="<?php echo sdsol_url('/services/advanced-analytics/'); ?>">Advanced Analytics</a>
+        <a href="<?php echo sdsol_url('/services/cloud-infrastructure/'); ?>">Cloud Infrastructure</a>
       </div>
     </li>
     <li class="nav-item">
-      <a href="<?php echo sdsol_url('/industries/'); ?>">Industries <span class="chevron">▼</span></a>
+      <a href="<?php echo sdsol_url('/success-stories/'); ?>">Success Stories <span class="chevron">▼</span></a>
       <div class="dropdown">
-        <a href="<?php echo sdsol_url('/industry-healthcare/'); ?>">Healthcare</a>
-        <a href="<?php echo sdsol_url('/industry-life-sciences/'); ?>">Life Sciences</a>
-        <a href="<?php echo sdsol_url('/industry-hospital-systems/'); ?>">Hospital Systems</a>
-        <a href="<?php echo sdsol_url('/industry-payers/'); ?>">Payers &amp; Insurers</a>
+        <a href="<?php echo sdsol_url('/success-stories/case-studies/'); ?>">Case Studies</a>
       </div>
     </li>
-    <li class="nav-item"><a href="<?php echo sdsol_url('/success-stories/'); ?>">Success Stories</a></li>
-    <li class="nav-item"><a href="<?php echo sdsol_url('/technologies/'); ?>">Technologies</a></li>
-    <li class="nav-item"><a href="<?php echo sdsol_url('/about/'); ?>">About</a></li>
+    <li class="nav-item">
+      <a href="<?php echo sdsol_url('/insights/'); ?>">Insights <span class="chevron">▼</span></a>
+      <div class="dropdown">
+        <a href="<?php echo sdsol_url('/insights/blogs/'); ?>">Blogs</a>
+        <a href="<?php echo sdsol_url('/insights/resources/'); ?>">Resources</a>
+      </div>
+    </li>
+    <li class="nav-item">
+      <a href="<?php echo sdsol_url('/about/'); ?>">About <span class="chevron">▼</span></a>
+      <div class="dropdown">
+        <a href="<?php echo sdsol_url('/about/our-mission/'); ?>">Our Mission</a>
+        <a href="<?php echo sdsol_url('/about/the-team/'); ?>">The Team</a>
+        <a href="<?php echo sdsol_url('/about/careers/'); ?>">Careers</a>
+      </div>
+    </li>
+    <li class="nav-item"><a href="<?php echo sdsol_url('/contact/'); ?>">Contact Us</a></li>
   </ul>
   <div class="nav-right">
-    <a href="<?php echo sdsol_url('/contact/'); ?>" class="nav-link">Contact</a>
     <a href="<?php echo sdsol_url('/contact/'); ?>" class="btn-nav">Talk to Our Experts</a>
   </div>
 </nav>
